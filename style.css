@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap');
+
+body{
+     background-color: #FAFAF9;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section-1,.section-2{
+    font-family: 'Sora', sans-serif;
+    margin: auto;
+    margin-top: 4.4em;
+    width: 95%;
+    max-width: 600px;
+}
+
+.reviewers{
+    margin-top: 0.15em;
+    font-size: 2rem;
+    color: #18181B;
+}
+
+.reviewers-details{
+    width: auto;
+    margin-top: 0.7em;
+    color: #52525A;
+}
+
+.list{
+    list-style: url('./assets/Done_ring_round_fill.svg') ;
+    padding-left: 1.5em;
+    margin-top: 1.6em;
+}
+
+.list li{
+    margin-top: 0.5em;
+    font-size: 0.8rem;
+    color: #52525A;
+}
+
+
+.section-2{
+    width: 95%;
+    margin: auto;
+    margin-top: 4em;
+}
+
+.review-1-container{
+   display: flex;
+   justify-content: end;
+   margin-top: 2em;
+}
+
+.review-1{
+    background-color: #FFFFFF;
+    width: fit-content;
+    border-radius: 0.5em;
+    padding: 1em;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.037);
+}
+
+.google{
+    display: flex;
+    align-items: center;
+}
+.google-stars{
+    display: flex;
+    margin-left: 1em;
+}
+
+.google-img{
+    width: 90px;
+}
+
+.Samantha{
+    font-size: 1rem;
+    margin-top: 0.5em;
+    color: #18181B;
+}
+.Samantha-para{
+    font-size: 0.9rem;
+    width: 250px;
+    margin-top: 0.5em;
+    color: #52525A;
+}
+
+.review-2-container{
+   display: flex;
+   justify-content: start;
+   margin-top: 2em;
+}
+
+.review-2{
+    background-color: #FFFFFF;
+    width: fit-content;
+    border-radius: 0.5em;
+    padding: 1em;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.037);
+}
+
+.meta{
+    display: flex;
+    align-items: center;
+}
+.meta-stars{
+    display: flex;
+    margin-left: 1em;
+}
+
+.meta-img{
+    width: 90px;
+}
+
+.Rachel{
+    font-size: 1rem;
+    margin-top: 0.5em; 
+    color: #18181B;
+}
+.Rachel-para{
+    font-size: 0.9rem;
+    width: 250px;
+    margin-top: 0.5em;
+    color: #52525A;
+}
+
+/* for 1280px devices */
+
+@media screen and (min-width:900px) {
+     header{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+     }
+     .section-2{
+        margin-left: 2em;
+     }
+}
